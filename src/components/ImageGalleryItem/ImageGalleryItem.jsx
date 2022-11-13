@@ -1,6 +1,6 @@
-import s from './ImageGalleryItem.module.css';
 import PropTypes from 'prop-types';
 
+import s from './ImageGalleryItem.module.css';
 export default function ImageGalleryItem({ smallImgURL, id }) {
   return (
     <li className={s.galleryItem}>

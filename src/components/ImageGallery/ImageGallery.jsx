@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import s from './ImageGallery.module.css';
-import ImageGalleryItem from 'components/ImageGalleryItem/ImageGalleryItem';
-import Modal from 'components/Modal/Modal';
+
 import { nanoid } from 'nanoid';
 import PropTypes from 'prop-types';
+
+import ImageGalleryItem from 'components/ImageGalleryItem/ImageGalleryItem';
+import Modal from 'components/Modal/Modal';
+
+import s from './ImageGallery.module.css';
 
 export default function ImageGallery({ images }) {
   const [showModal, setShowModal] = useState(false);
